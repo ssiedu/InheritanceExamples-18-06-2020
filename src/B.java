@@ -1,19 +1,14 @@
 
-public class B extends A {
+public class B  {
    
-    void m3() {
-        System.out.println("Hello from m3 of B");
-    }
-
-    void m4() {
-        System.out.println("Hello from m4 of B");
+    A ob=new A();
+    
+    public void show(){
+        ob.display();
     }
 
     public static void main(String[] args) {
         B ob=new B();
-        ob.m1();
-        ob.m2();
-        ob.m3();
-        ob.m4();
+        ob.show();
     }
 }
