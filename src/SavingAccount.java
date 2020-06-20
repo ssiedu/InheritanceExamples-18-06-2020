@@ -1,3 +1,4 @@
+//Object=>Account=>SavingAccount
 
 public class SavingAccount extends Account {
 
@@ -17,5 +18,6 @@ public class SavingAccount extends Account {
         ac.setType("Joint");
         ac.showAccountInfo();
         ac.showType();
+        ac.computeInterest(50000);
     }
 }
