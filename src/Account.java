@@ -1,9 +1,9 @@
-public class Account {
+public  class Account  {
     int ano;
     String name;
     int balance;
     
-    public void computeInterest(int amount){
+    public final void computeInterest(int amount){
         System.out.println("Interest Amount : "+(amount*10/100));
     }
     public void setAccountInfo(int ano, String name, int balance){
