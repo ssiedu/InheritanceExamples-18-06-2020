@@ -6,4 +6,5 @@ public interface BankAccount {
     public void closeAccount();
     public void deposit();
     public void withdraw();
+    
 }
